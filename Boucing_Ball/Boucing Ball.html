@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Bouncing Ball</title>
+    <link rel="stylesheet" type="text/css" href="css/BoucingBall.css">
+</head>
+<body>
+    <h2>Bouncing Ball</h2>
+
+    <canvas id="myCanvas" width="640" height="480"></canvas>
+
+    <audio id="collision" src="sounds/collision.mp3"></audio>
+    <audio id="win" src="sounds/win.mp3"></audio>
+    <audio id="lose" src="sounds/lose.mp3"></audio>
+
+
+<script src="js/BoucingBall.js">
+</script>
+
+<div style="text-align:center;"><button class="button" onclick="togglePause()">Pause/Play</button>
+    <button class="button" onclick="window.location.reload()">Restart</button>
+</div>
+
+<div style="text-align:center;"><button class="bt" onclick="onInstruction()">Instrusion</button>
+</div>
+
+<div id="overlay" onclick="offInstruction()">
+    <div id="text">Control the ball to break the bricks. Use the mouse or <- -> keys to control the paddle. <br><br>You can press P (or click Pause/Play button) to continue the game !</div>
+</div>
+
+<h3 class="bottomRight">Created by Mr Hoàng </h3>
+
+</body>
+</html>

@@ -1,0 +1,110 @@
+html {
+    height: 100%;
+    background-color: #e8fcff;
+}
+
+body {
+    width:900px;
+    margin: 0 auto;
+    background-color: #fffee9;
+    border: 2px solid #62694e;
+    height:99%;
+}
+
+canvas{
+    border: 2px solid #099;
+    margin: 10px 150px 0 150px;
+    background-color: #EBFBFB;
+    cursor: none;
+}
+
+div {
+    margin-top: 5px;
+    margin-bottom: 13px;
+}
+
+h2{
+    text-align:center;
+    font-size:32px;
+    text-shadow: 2px 2px;
+    color: #2a4d28;
+}
+
+.button {
+    width: 20%;
+    padding: 12px 25px;
+    font-size: 24px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: #fff;
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+    cursor: pointer;
+}
+
+.button:hover {background-color: #3e8e41}
+
+.button:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+.bt {
+    width: 20%;
+    padding: 12px 25px;
+    font-size: 24px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: #fff;
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+    cursor: help;
+}
+
+.bt:hover {background-color: #3e8e41}
+
+.bt:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+
+#overlay {
+    position: fixed;
+    display: none;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.5);
+    z-index: 2;
+    cursor: pointer;
+}
+
+#text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-size: 50px;
+    color: ghostwhite;
+    transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+}
+
+.bottomRight {
+    text-shadow: 1px 1px;
+    position: absolute;
+    bottom: 8px;
+    right: 16px;
+    font-size: 18px;
+}
